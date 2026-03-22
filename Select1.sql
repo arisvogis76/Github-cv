@@ -18,4 +18,5 @@ VALUES ('Ringo', 'Tabby', 4),
        
 SELECT * FROM CATS;
 SELECT NAME FROM CATS; 
-SELECT AGE FROM CATS;      
+SELECT AGE FROM CATS; 
+SELECT age,breed FROM cats;     
