@@ -1,0 +1,10 @@
+select article,color from shirts;
+select * from shirts where shirt_size='M';
+select article,color,shirt_size,last_worn from shirts;
+update shirts set shirt_size='L' where article='polo shirt';
+update shirts set last_worn=0 where article='tank top' and color='blue';
+update shirts set shirt_size='XS' where color='white';
+DELETE from shirts where last_worn=200;
+delete  from shirts where article='tank top';
+delete FROM shirts;
+DROP TABLE shirts;
