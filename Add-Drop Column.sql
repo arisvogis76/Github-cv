@@ -1,0 +1,7 @@
+ALTER TABLE companies 
+ADD COLUMN phone VARCHAR(15);
+ 
+ALTER TABLE companies
+ADD COLUMN employee_count INT NOT NULL DEFAULT 1;
+
+ALTER TABLE companies DROP COLUMN phone;
